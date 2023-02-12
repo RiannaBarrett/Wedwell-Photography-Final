@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+    background-color: rgb(239, 235, 229);
+}
+ h2 {
+    font-family: 'Raleway', serif;
+    font-size: 200%;
+    font-weight: 700;
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+ }
+
+p {
+    font-family: 'Raleway', serif;
+    color: black;
+    font-size: 100%;
+    line-height: 180%;
+    text-align: justify;
+    font-weight: 300;
+}
+
+p2 {
+    font-family: 'Raleway', serif;
+    color: black;
+    font-size: 100%;
+    line-height: 180%;
+    text-align: justify;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(background1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 350%;
+    font-weight: 700;
+    color:black;
+    text-align: center;
+    padding: 1%;
+    text-shadow: opx 0px 250px black;
+}
+
+.content p {
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Raleway', serif;
+}
+
+.inner {
+    max-width: 600px;
+    margin: auto;
+    font-size: 170%;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+/*-----Nav-----*/
+
+.container {
+    top: 0 !important;
+    max-width: 960px;
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: 'Raleway', serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #c6cdc1;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+   
+  }
+/*Hover Effect*/
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+.bar {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background:white;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bar > .container {
+    top: 0 !important;
+    text-align: center;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+.info{
+    text-align: center;
+}
+.photo {
+    max-width: 10%;
+    height: auto;
+    width: auto;
+    border-radius: 0px;
+}
+
+.menu-button{
+    top: 0 !important;
+   display: flex;
+   flex-direction: row;
+   padding-left: 0;
+   margin-bottom: 0;
+   list-style: none;
+   color:grey;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(50, 50, 50);
+    font-family: 'Raleway', serif;
+    font-weight: 300;
+    font-size: 150%;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/*------ END NAV-----*/
+
+.left-col {
+    width: 60%;
+    float: left;
+    margin: 4% 0 4% 4%;
+}
+
+.side-bar {
+    width: 26%;
+    float: left;
+    margin: 5%;
+}
+
+.one-third-port {
+    width: 29.333333%;
+    padding: 2%;
+    float: left;
+}
+
+.one-third-port img:hover {
+    opacity: .6;
+}
+
+.contact p {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.contact a {
+    color: black;
+}
+
+.schedule {
+    margin: auto;
+    text-align: center;
+    font-family: 'Raleway', serif;
+    width: 300px;
+    height: 200px;
+}
+
+button {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 18px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+button:hover {
+    color: #c6cdc1;
+}
+
+.clearfix {
+    clear: both;
+    height: 3%;
+}
+
+.parallax {
+    background: url(group.jpg) repeat fixed 100%;
+}
+
+.parallax-inner {
+    padding-top:17%;
+}
+
+.social {
+    list-style-type: none;
+    text-align:center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 270%;
+    margin: 1% 5% 7% 4%;
+    color: black;
+}
+
+.social i:hover {
+    color: grey;
+}
+
+footer.second {
+    background-color: #c6cdc1;
+}
+
+footer.second p {
+    color: white;
+    text-align:center;
+    padding: 2%;
+}
+
+/*------CONSULTAION FORM-------*/
+
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #c6cdc1;
+    border: 2px solid  rgb(50, 50, 50);
+    border-radius: 20px;
+  }
+
+  /* Form Headings */
+  h2 {
+    text-align: center;
+    font-family: 'Raleway', serif;
+  }
+
+  /* Form Inputs and Labels */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-family: 'Raleway', serif;
+    color:  rgb(50, 50, 50);
+  }
+
+  input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid  rgb(50, 50, 50);
+    margin-top: 5px;
+  }
+
+  /* Submit Button */
+    button {
+    width: 100%;
+    padding: 10px;
+    background-color: grey;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+.box {
+    padding: 100px;
+}
+
+.message {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
