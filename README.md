@@ -1,2 +1,4 @@
 # Wedwell-Photography-Final
-Wedwell Photography websie
+Wedwell Photography website
+
+Project created in a team of three for code first girls
